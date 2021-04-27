@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Saper.Pages.LostGamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Saper.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="SAPER: Game Lost"
+    d:DesignHeight="650"
+    d:DesignWidth="850"
+    FontSize="20"
+    mc:Ignorable="d">
+
+    <Grid Name="EndGrid"
+          MouseDown="EndGrid_MouseDown">
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image
+                Height="145"
+                Margin="0"
+                Source="../Images/KONIEC.png" />
+
+            <Image
+                Height="170"
+                Margin="0"
+                Source="../Images/GRY.png" />
+        </StackPanel>
+
+    </Grid>
+</Page>

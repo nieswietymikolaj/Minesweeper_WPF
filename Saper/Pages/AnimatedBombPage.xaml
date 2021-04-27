@@ -1,0 +1,25 @@
+﻿<Page x:Class="Saper.Pages.AnimatedBombPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Saper.Pages"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      Title="SAPER: Animated bomb"
+      d:DesignHeight="650"
+      d:DesignWidth="850"
+      FontSize="20"
+      mc:Ignorable="d">
+
+    <Grid Name="EndGrid">
+
+        <Image Width="850"
+               Height="650"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               gif:ImageBehavior.RepeatBehavior="1x"
+               gif:ImageBehavior.AnimatedSource="/Images/ExplodingBomb.gif"
+               Margin="0,-20,0,55" />
+
+    </Grid>
+</Page>
